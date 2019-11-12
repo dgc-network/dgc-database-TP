@@ -69,10 +69,7 @@ services:
       - /dgc-REST-api/processor/target
       - /dgc-REST-api/processor/src/messages
     entrypoint: |
-      bash -c "
-        cargo build &&
-        dgc-rest-api-tp -v -C tcp://validator:4004
-      "
+      bash -c "cargo build && dgc-rest-api-tp -v -C tcp://validator:4004"
 
   server:
     image: dgc-server
@@ -159,8 +156,7 @@ services:
         sawtooth-validator -vv \
           --endpoint tcp://validator:8800 \
           --bind component:tcp://eth0:4004 \
-          --bind network:tcp://eth0:8800
-      "
+          --bind network:tcp://eth0:8800"
 
   settings-tp:
     image: hyperledger/sawtooth-settings-tp:1.0
