@@ -1,0 +1,34 @@
+// Copyright (c) The dgc.network
+// SPDX-License-Identifier: Apache-2.0
+
+syntax = "proto3";
+
+
+message Participant {
+  message CreditBalance {
+    uint64 timestamp = 1;
+    double dg_coin_amount = 2;
+    string proposal_id = 3;
+  }
+
+  string public_key = 1;
+
+  // A human readable name identifying the Participant
+  string name = 2;
+
+  // Unix UTC timestamp of approximately when this participant was registered
+  uint64 timestamp = 3;
+
+  // an unique email address
+  string email = 4;
+
+  // Ordered oldest to newest by timestamp
+  repeated CreditBalance dg_coin_balances = 5;
+  repeated CreditBalance dg_coin_credits = 6;
+
+}
+
+
+message ParticipantContainer {
+  repeated Participant entries = 1;
+}
