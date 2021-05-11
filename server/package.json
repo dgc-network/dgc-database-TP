@@ -28,7 +28,7 @@
     "express": "^4.15.4",
     "js-schema": "^1.0.1",
     "jsonwebtoken": "^7.4.3",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.21",
     "protobufjs": "^6.8.0",
     "rethinkdb": "^2.3.3",
     "sawtooth-sdk": "^1.0.0-rc",
