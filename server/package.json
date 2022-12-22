@@ -27,7 +27,7 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "js-schema": "^1.0.1",
-    "jsonwebtoken": "^7.4.3",
+    "jsonwebtoken": "^9.0.0",
     "lodash": "^4.17.4",
     "protobufjs": "^6.8.0",
     "rethinkdb": "^2.3.3",
