@@ -25,7 +25,7 @@
   "dependencies": {
     "bcrypt": "^3.0.6",
     "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "express": "^4.21.1",
     "js-schema": "^1.0.1",
     "jsonwebtoken": "^7.4.3",
     "lodash": "^4.17.4",
