@@ -23,22 +23,22 @@
   },
   "homepage": "https://github.com/dgc-network/dgc-REST-api#readme",
   "dependencies": {
-    "bcrypt": "^3.0.6",
-    "body-parser": "^1.17.2",
-    "express": "^4.15.4",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
     "js-schema": "^1.0.1",
-    "jsonwebtoken": "^7.4.3",
-    "lodash": "^4.17.4",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
     "protobufjs": "^6.8.0",
     "rethinkdb": "^2.3.3",
     "sawtooth-sdk": "^1.0.0-rc",
     "sjcl": "^1.0.7"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0",
-    "request": "^2.83.0",
+    "nodemon": "^3.1.7",
+    "request": "^2.88.2",
     "request-promise-native": "^1.0.5",
     "sendmail": "^1.4.1",
-    "standard": "^10.0.3"
+    "standard": "^17.1.2"
   }
 }
