@@ -22,10 +22,10 @@ homepage = "https://github.com/dgc-network/dgc-REST-api"
 [dependencies]
 sawtooth-sdk = "^0.1"
 rust-crypto = "0.2.36"
-rustc-serialize = "0.3.22"
+rustc-serialize = "0.3.25"
 sawtooth-zmq = "0.8.2-dev5"
 clap = "2"
-protobuf = "2"
+protobuf = "3"
 log = "0.3.0"
 log4rs = "0.7.0"
 
