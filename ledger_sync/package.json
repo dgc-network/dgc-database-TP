@@ -22,10 +22,10 @@
   },
   "homepage": "https://github.com/dgc-network/dgc-REST-api#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
+    "body-parser": "^2.2.2",
     "js-schema": "^1.0.1",
     "lodash": "^4.17.4",
-    "protobufjs": "^6.8.0",
+    "protobufjs": "^8.0.1",
     "rethinkdb": "^2.3.3",
     "sawtooth-sdk": "^1.0.0-rc"
   },
